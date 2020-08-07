@@ -5,6 +5,7 @@ import Featured from "./components/featured/index";
 import VenueNfo from "./components/venueNfo";
 import Heighlights from "./components/Highlights";
 import Pricing from "./components/pricing";
+import Location from "./components/location";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <VenueNfo></VenueNfo>
       <Heighlights></Heighlights>
       <Pricing></Pricing>
+      <Location></Location>
     </div>
   );
 };
