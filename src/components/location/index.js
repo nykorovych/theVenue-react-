@@ -12,10 +12,7 @@ const Location = () => {
         title="myFrame"
       ></iframe>
       <div className="location_tag">
-          <div>
-              LOCATION
-          </div>
-
+        <div>LOCATION</div>
       </div>
     </div>
   );

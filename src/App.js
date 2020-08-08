@@ -6,6 +6,9 @@ import VenueNfo from "./components/venueNfo";
 import Heighlights from "./components/Highlights";
 import Pricing from "./components/pricing";
 import Location from "./components/location";
+import Footer from "./components/header_footer/Footer";
+
+import { Element } from "react-scroll";
 
 const App = () => {
   return (
@@ -13,9 +16,12 @@ const App = () => {
       <Header></Header>
       <Featured></Featured>
       <VenueNfo></VenueNfo>
-      <Heighlights></Heighlights>
+      <Element name='highlights'>
+        <Heighlights></Heighlights>
+      </Element>
       <Pricing></Pricing>
       <Location></Location>
+      <Footer></Footer>
     </div>
   );
 };
